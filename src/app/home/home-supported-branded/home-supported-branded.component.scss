@@ -1,0 +1,28 @@
+section {
+  margin: 0 9rem;
+
+  .text-container {
+    margin-top: 9.37rem;
+    margin-bottom: 3.125rem;
+
+    .text-h1 {
+      font-size: 2.66rem;
+      width: 40rem;
+      line-height: 3.375rem;
+    }
+
+    .text-h3 {
+      line-height: 1.875rem;
+      font-size: 1.25rem;
+      width: 40rem;
+    }
+  }
+
+  .brand-logo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-items: center;
+  }
+}

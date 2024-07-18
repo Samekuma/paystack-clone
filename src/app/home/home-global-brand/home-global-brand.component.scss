@@ -1,0 +1,29 @@
+section {
+  margin-top: 9.37rem;
+
+    background-image: url("/assets/Icons/circle-bg.svg");
+
+  background: #f9fbfc;
+  .bg-circle {
+    width: 40rem;
+  }
+  .container {
+    margin: 0 9rem;
+
+    .header-text {
+      padding-top: 9.37rem;
+      width: 40rem;
+      padding-bottom: 0.62rem;
+
+      .text-h1 {
+        font-size: 2.81rem;
+        line-height: 3.37rem;
+      }
+
+      .text-h3 {
+        font-size: 1.25rem;
+        line-height: 1.87rem;
+      }
+    }
+  }
+}

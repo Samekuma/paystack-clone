@@ -1,0 +1,47 @@
+@import "src/styles.scss";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $background-color;
+  height: 5rem;
+  align-items: center;
+  padding: 0 2.5rem;
+  // padding-bottom: 1rem;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      margin-right: 0.7rem;
+    }
+
+    .header-left-items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+
+    .create-btn {
+      background-color: $secondary-color;
+      color: white;
+      border: none;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      padding: 1rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+    }
+  }
+}

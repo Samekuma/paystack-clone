@@ -1,0 +1,150 @@
+@import "src/styles.scss";
+
+.hero-details-container {
+  margin: 0 9rem;
+  margin-top: 9rem;
+
+  .simple-text {
+    margin-bottom: 6.25rem;
+
+    .text-1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .text-2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .payment-collection-container {
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+    justify-content: space-between;
+
+    .gif-container {
+      .animated-gif {
+        width: 579px;
+        height: 100%;
+      }
+    }
+
+    .text-container {
+      width: 28.125rem;
+
+      .delight {
+        font-size: 2.25rem;
+      }
+
+      .delight-description {
+        font-size: 1.188rem;
+        margin-top: 1.124rem;
+      }
+
+      .features-container {
+        margin-top: 1.87rem;
+      }
+
+      .transaction-div {
+        .success-rate {
+          font-size: 2.25rem;
+          margin-top: 4.9rem;
+          line-height: 2.68rem;
+        }
+
+        .automatic-text {
+          font-size: 1.18rem;
+          line-height: 1.75rem;
+          margin-top: 1.12rem;
+        }
+
+        .cta-findout {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-top: 1.18rem;
+
+          .cta-findout-text {
+            color: $secondary-color !important;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1rem;
+            line-height: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .api-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9.375rem;
+    gap: 5.594rem;
+
+    .api-text-holder {
+      .text-h1 {
+        font-size: 2.25rem;
+        margin-bottom: 1.125rem;
+      }
+
+      .text-h3 {
+        font-size: 1.18rem;
+        line-height: 1.781rem;
+        margin-bottom: 1.781rem;
+      }
+
+      .paystack-container {
+        display: flex;
+        align-items: center;
+        color: $secondary-color;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        gap: 0.5rem;
+      }
+    }
+  }
+
+  .protection-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 9.37rem;
+    // justify-content: right;
+    align-items: end;
+
+    .protection-text1 {
+      width: 30rem;
+
+      .protect-yourself {
+        font-size: 2.25rem;
+        width: 31.5rem;
+        margin-bottom: 1.12rem;
+        line-height: 2.7rem;
+      }
+
+      .combination {
+        font-size: 1.18rem;
+        line-height: 1.781rem;
+        margin-bottom: 4.25rem;
+        width: 31.5rem;
+      }
+
+      .reconciliation {
+        line-height: 2.7rem;
+        font-size: 2.25rem;
+        width: 30.5rem;
+        margin-bottom: 1.12rem;
+      }
+      .customer {
+        font-size: 1.18rem;
+        line-height: 1.781rem;
+        width: 31.5rem;
+      }
+    }
+  }
+}

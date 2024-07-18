@@ -1,0 +1,80 @@
+section {
+  background: #eaf6fc;
+  background-image: url("/assets/Icons/bg-tick.svg");
+  width: auto;
+  height: auto;
+  margin-top: 9.375rem;
+
+  .trusted-business {
+    margin: 0 9rem;
+
+    .trust-business-container {
+      padding-top: 9.375rem;
+      padding-bottom: 9.375rem;
+
+      .trusted-business-text {
+        margin-bottom: 3.125rem;
+
+        .text-h1 {
+          font-size: 2.813rem;
+          text-align: left;
+          margin-bottom: 0.625;
+          width: 31.25rem;
+        }
+        .text-h3 {
+          font-size: 1.25rem;
+          width: 38.25rem;
+        }
+      }
+
+      .cards {
+        display: flex;
+        gap: 1.25rem;
+        align-items: center;
+        // justify-content: space-between;
+        .card-1 {
+          padding-left: 33px;
+          padding-right: 33px;
+          padding-top: 39px;
+          background-color: white;
+          width: 23.875rem;
+          border-radius: 0.37rem;
+          height: 26.3rem;
+
+          .card-1-subcontainer {
+            padding-bottom: 3.063rem;
+            .identity {
+              margin-bottom: 1.87rem;
+              width: 8.03rem;
+              height: 4.99rem;
+            }
+
+            // .identity-entrepreneur {
+            //
+            // }
+            .card-1-text {
+              .card-h2 {
+                font-size: 1.5rem;
+                line-height: 2.1rem;
+                width: 12.75rem;
+                margin-bottom: 0.563rem;
+              }
+
+              .card-h4 {
+                font-size: 1rem;
+                line-height: 1.6rem;
+                margin-bottom: 1.599rem;
+                width: 18.75rem;
+              }
+            }
+
+            .card-cta {
+              display: flex;
+              gap: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
