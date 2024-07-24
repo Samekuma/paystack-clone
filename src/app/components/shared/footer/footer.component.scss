@@ -1,0 +1,167 @@
+@import "src/styles.scss";
+
+section {
+  margin: 0 9rem;
+
+  .container {
+    margin-top: 5rem;
+
+    .footer-content {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+
+      .why-paystack,
+      .pricing-list,
+      .developer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.188rem;
+
+        .header-text {
+          font-size: 1.125rem;
+          line-height: 1.575rem;
+        }
+
+        .entrepreneurs,
+        .institutions,
+        .paystack,
+        .customer,
+        .blog,
+        .country,
+        .documentation,
+        .support-content {
+          font-size: 1rem;
+          line-height: 1.6rem;
+        }
+      }
+    }
+
+    .about {
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+  }
+
+  .footer-final {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+    .contact {
+      .contact-h1 {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+      }
+
+      .email {
+        color: #0ba4db;
+        font-size: 1rem;
+        line-height: 1.6rem;
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        
+      }
+    }
+  }
+
+  .lagos-accra {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .lagos-address {
+      width: 10.875rem;
+
+      .lagos-locale {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .contact-number {
+        font-size: 0.938rem;
+        line-height: 1.6rem;
+        color: #0ba4db;
+      }
+    }
+
+    .accra-address {
+      .accra {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .accra-locale {
+        width: 7.875rem;
+      }
+    }
+  }
+
+  .san-francisco-dubai {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .san-francisco {
+      .sf-place {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .san-francisco-address {
+        width: 7.875rem;
+      }
+    }
+
+    .dubai {
+      .dubai-place {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        margin-bottom: 0.5rem;
+      }
+      .dubai-office-address {
+        width: 11.875rem;
+      }
+    }
+  }
+
+  .SA-branch {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .captown-place {
+      font-size: 1.125rem;
+      line-height: 1.575rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .capTown-address {
+      width: 11.875rem;
+    }
+  }
+
+  .johannesburg-place {
+    .SA-address-2 {
+      font-size: 1.125rem;
+      line-height: 1.575rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .johannesburg-address {
+      width: 11.875rem;
+    }
+  }
+}
